@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Imagen a lo ancho -->
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/birthday_cake"
+        android:scaleType="centerCrop" />
+
+    <!-- Primer título -->
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="FELIZ CUMPLEAÑOS PAULA!!!"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#4689C8"
+        android:textStyle="bold" />
+
+    <!-- Segundo Hola (texto normal) -->
+    <TextView
+        android:id="@+id/text_normal_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Que tengas un dia espectacular"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
