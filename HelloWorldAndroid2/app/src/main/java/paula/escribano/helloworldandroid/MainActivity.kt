@@ -11,6 +11,7 @@ import paula.escribano.helloworldandroid.birthday.BirthdayActivity
 import paula.escribano.helloworldandroid.databinding.ActivityMainBinding
 import paula.escribano.helloworldandroid.helloWorld.NameActivity
 import paula.escribano.helloworldandroid.shopList.ListActivity
+import paula.escribano.helloworldandroid.net.PostsActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -42,6 +43,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.listButton.setOnClickListener {
             val intent = Intent(this, ListActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.netButton.setOnClickListener {
+            val intent = Intent(this, PostsActivity::class.java)
             startActivity(intent)
         }
     }
