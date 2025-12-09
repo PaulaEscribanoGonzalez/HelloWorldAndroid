@@ -7,13 +7,43 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView android:id="@+id/MainActivity"
+    <Button
+        android:id="@+id/helloWorldButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="HELLO WORLD"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"/>
 
+    <Button
+        android:id="@+id/birthdayCardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIRTHDAY CARD"
+        app:layout_constraintTop_toBottomOf="@id/helloWorldButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/listButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LISTS"
+        app:layout_constraintTop_toBottomOf="@id/birthdayCardButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/netButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NETWORK CALL"
+        app:layout_constraintTop_toBottomOf="@id/listButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

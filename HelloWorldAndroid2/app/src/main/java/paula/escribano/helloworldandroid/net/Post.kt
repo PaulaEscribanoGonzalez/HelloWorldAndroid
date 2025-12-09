@@ -1,2 +1,4 @@
-package paula.escribano.helloworldandroid.net 
+package paula.escribano.helloworldandroid.net
 
+data class Post (val userId: Int, val id: Int, val title:String, val body: String){
+}

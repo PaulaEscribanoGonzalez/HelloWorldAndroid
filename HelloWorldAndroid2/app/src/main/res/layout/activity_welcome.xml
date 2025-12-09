@@ -5,6 +5,27 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeActivity">
+    tools:context=".helloWorld.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello (name)! Welcome to my app."
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:src="@drawable/flower"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/welcomeText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

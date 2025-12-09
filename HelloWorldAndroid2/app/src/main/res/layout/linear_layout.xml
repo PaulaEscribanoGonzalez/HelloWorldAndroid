@@ -6,15 +6,13 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Imagen a lo ancho -->
     <ImageView
         android:id="@+id/photo_image_view"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/flower"
         android:scaleType="centerCrop" />
 
-    <!-- Primer título -->
     <TextView
         android:id="@+id/title_text_view"
         android:layout_width="wrap_content"
@@ -24,7 +22,6 @@
         android:textColor="#4689C8"
         android:textStyle="bold" />
 
-    <!-- LinearLayout interno -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,18 +41,16 @@
             android:textColor="@android:color/black"/>
     </LinearLayout>
 
-    <!-- Segundo Hola (texto normal) -->
     <TextView
-        android:id="@+id/text_normal_1"
+        android:id="@+id/text_largo_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Lorem ipsum dolor sit amet consectetur adipiscing elit non ut arcu, dapibus rhoncus taciti quisque semper ac fermentum facilisi congue integer, vulputate tincidunt dui consequat mi tristique fusce varius phasellus. Vitae ornare sem metus senectus ridiculus gravida pretium justo tristique, magna lacus velit integer nullam a lectus molestie sociosqu, taciti feugiat habitant tempus pellentesque ultricies odio nibh. Rhoncus himenaeos scelerisque convallis velit metus congue praesent porta, felis suspendisse blandit curae quisque faucibus urna justo, lacinia dis pharetra duis risus potenti molestie."
         android:textSize="16sp"
         android:textColor="@android:color/black" />
 
-    <!-- Tercer Hola (texto normal) -->
     <TextView
-        android:id="@+id/text_normal_2"
+        android:id="@+id/text_largo_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Fermentum conubia dis nec dictumst fusce erat sagittis vitae natoque, sed ac posuere libero tortor ultricies mauris. Vehicula facilisi elementum convallis aliquam cras netus dignissim ullamcorper dictum malesuada taciti fusce, accumsan ligula cubilia ac vulputate metus sollicitudin fames leo bibendum ornare mauris, nec proin nulla natoque lectus augue duis platea nibh magnis facilisis. Fames parturient augue laoreet facilisis tristique curabitur praesent vivamus dis posuere est massa, platea quisque duis nisl lacinia aliquet tellus volutpat odio pretium."
@@ -63,10 +58,10 @@
         android:textColor="@android:color/black" />
 
     <Button
-        android:id="@+id/next_button"
+        android:id="@+id/save_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:text="SAVE"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"/>
 

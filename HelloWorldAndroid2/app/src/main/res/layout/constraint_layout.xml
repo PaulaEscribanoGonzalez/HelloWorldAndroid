@@ -6,84 +6,75 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
-    <!-- Imagen arriba -->
     <ImageView
         android:id="@+id/photo_image_view"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="100dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/flower"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-    <!-- Título debajo de la imagen -->
     <TextView
         android:id="@+id/title_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Hola"
+        tools:text="Lorem Ipsum"
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="#4689C8"
         android:textStyle="bold"
         android:layout_marginTop="16dp"
         app:layout_constraintTop_toBottomOf="@id/photo_image_view"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Texto 2025 -->
     <TextView
         android:id="@+id/text_2025"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="2025"
         android:textSize="16sp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-230dp"
         app:layout_constraintTop_toBottomOf="@id/title_text_view"
-        app:layout_constraintEnd_toStartOf="@id/text_lorem"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/text_lorem" />
 
-    <!-- Texto Lorem Ipsum -->
     <TextView
         android:id="@+id/text_lorem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Lorem Ipsum"
+        tools:text=" Lorem Ipsum"
         android:textSize="16sp"
-        android:layout_marginStart="8dp"
         app:layout_constraintTop_toBottomOf="@id/title_text_view"
-        app:layout_constraintStart_toEndOf="@id/text_2025"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- "Hola" 1 -->
     <TextView
-        android:id="@+id/text_hola_1"
-        android:layout_width="wrap_content"
+        android:id="@+id/text_largo_1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Hola"
+        tools:text="Lorem ipsum dolor sit amet consectetur adipiscing elit non ut arcu, dapibus rhoncus taciti quisque semper ac fermentum facilisi congue integer, vulputate tincidunt dui consequat mi tristique fusce varius phasellus. Vitae ornare sem metus senectus ridiculus gravida pretium justo tristique, magna lacus velit integer nullam a lectus molestie sociosqu, taciti feugiat habitant tempus pellentesque ultricies odio nibh. Rhoncus himenaeos scelerisque convallis velit metus congue praesent porta, felis suspendisse blandit curae quisque faucibus urna justo, lacinia dis pharetra duis risus potenti molestie."
         android:textSize="16sp"
         android:layout_marginTop="12dp"
         app:layout_constraintTop_toBottomOf="@id/text_lorem"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- "Hola" 2 -->
     <TextView
-        android:id="@+id/text_hola_2"
-        android:layout_width="wrap_content"
+        android:id="@+id/text_largo_2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Hola"
+        tools:text="Fermentum conubia dis nec dictumst fusce erat sagittis vitae natoque, sed ac posuere libero tortor ultricies mauris. Vehicula facilisi elementum convallis aliquam cras netus dignissim ullamcorper dictum malesuada taciti fusce, accumsan ligula cubilia ac vulputate metus sollicitudin fames leo bibendum ornare mauris, nec proin nulla natoque lectus augue duis platea nibh magnis facilisis. Fames parturient augue laoreet facilisis tristique curabitur praesent vivamus dis posuere est massa, platea quisque duis nisl lacinia aliquet tellus volutpat odio pretium."
         android:textSize="16sp"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@id/text_hola_1"
+        app:layout_constraintTop_toBottomOf="@id/text_largo_1"
         app:layout_constraintStart_toStartOf="parent"/>
 
-    <!-- Botón centrado -->
     <Button
-        android:id="@+id/next_button"
+        android:id="@+id/save_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:text="SAVE"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@id/text_hola_2"
+        app:layout_constraintTop_toBottomOf="@id/text_largo_2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
