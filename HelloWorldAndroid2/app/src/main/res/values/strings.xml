@@ -34,4 +34,9 @@
 
     <!-- POSTS -->
     <string name="error_message">Error: %1$s</string>
+
+    <!-- TITLES -->
+    <string name="title_list">List</string>
+    <string name="title_network">Network Call</string>
+    <string name="title_birthday">Birthday</string>
 </resources>
