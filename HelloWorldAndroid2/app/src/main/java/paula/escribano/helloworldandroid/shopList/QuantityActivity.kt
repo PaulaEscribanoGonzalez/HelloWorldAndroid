@@ -17,7 +17,7 @@ class QuantityActivity : AppCompatActivity() {
         val foodText = findViewById<TextView>(R.id.foodText)
         val quantityText = findViewById<TextView>(R.id.quantityText)
 
-        foodText.text = item?.name ?: "Unknown"
-        quantityText.text = "Quantity: ${item?.quantity ?: 0}"
+        foodText.text = item?.name ?: getString(R.string.unknown)
+        quantityText.text = getString(R.string.quantity_label, item?.quantity ?: 0)
     }
 }

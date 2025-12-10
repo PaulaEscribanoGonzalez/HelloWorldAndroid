@@ -10,6 +10,7 @@ import paula.escribano.helloworldandroid.net.Post
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import paula.escribano.helloworldandroid.R
 
 class PostsActivity : AppCompatActivity() {
 
@@ -38,9 +39,7 @@ class PostsActivity : AppCompatActivity() {
                 }
             }
 
-            override fun onFailure(call: Call<List<Post>>, t: Throwable) {
-                Toast.makeText(this@PostsActivity, "Error: ${t.message}", Toast.LENGTH_SHORT).show()
-            }
+            override fun onFailure(call: Call<List<Post>>, t: Throwable) { Toast.makeText(this@PostsActivity, getString(R.string.error_message, t.message), Toast.LENGTH_SHORT).show() }
         })
     }
 }

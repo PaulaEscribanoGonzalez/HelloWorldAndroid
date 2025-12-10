@@ -1,3 +1,37 @@
 <resources>
+    <!-- APP NAME -->
     <string name="app_name">HelloWorldAndroid</string>
+
+    <!-- MAIN MENU -->
+    <string name="hello_world">HELLO WORLD</string>
+    <string name="birthday_card">BIRTHDAY CARD</string>
+    <string name="list_button">LISTS</string>
+    <string name="network_call">NETWORK CALL</string>
+
+    <!-- BIRTHDAY -->
+    <string name="birthday_title">HAPPY BIRTHDAY PAULA!!!</string>
+    <string name="birthday_phrase">Have an amazing day!</string>
+
+    <!-- NAME SCREEN -->
+    <string name="type_name">Hello, type your name here below</string>
+    <string name="hint_name">Your name</string>
+    <string name="done">DONE</string>
+    <string name="empty_name_msg">Please type your name</string>
+
+    <!-- WELCOME -->
+    <string name="welcome_message">Hello %1$s! Welcome to my app.</string>
+
+    <!-- SHOP LIST -->
+    <string name="item_name_hint">Item name</string>
+    <string name="item_quantity_hint">Quantity</string>
+    <string name="save">SAVE</string>
+    <string name="add_item_description">Add item</string>
+
+    <!-- QUANTITY VIEW -->
+    <string name="food_default">Food</string>
+    <string name="quantity_label">Quantity: %1$d</string>
+    <string name="unknown">Unknown</string>
+
+    <!-- POSTS -->
+    <string name="error_message">Error: %1$s</string>
 </resources>

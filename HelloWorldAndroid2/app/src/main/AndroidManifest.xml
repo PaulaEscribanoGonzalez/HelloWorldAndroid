@@ -17,24 +17,32 @@
         tools:targetApi="31" >
         <activity
             android:name=".shopList.QuantityActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".shopList.AddShopItemActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
+
         <activity
             android:name=".shopList.ListActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".helloWorld.WelcomeActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".helloWorld.NameActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".birthday.BirthdayActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".net.PostsActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false"/>
         <activity
             android:name=".MainActivity"

@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import paula.escribano.helloworldandroid.helloWorld.WelcomeActivity
 import paula.escribano.helloworldandroid.databinding.ActivityNameBinding
+import paula.escribano.helloworldandroid.R
 
 class NameActivity : AppCompatActivity() {
 
@@ -23,7 +24,7 @@ class NameActivity : AppCompatActivity() {
             val name = binding.nameEditText.text.toString().trim()
 
             if (name.isEmpty()) {
-                Toast.makeText(this, "Introduce tu nombre, por favor", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, getString(R.string.empty_name_msg), Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             }
 
